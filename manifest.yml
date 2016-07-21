@@ -1,0 +1,7 @@
+---
+applications:
+- name: app
+  memory: 512M
+  command: node app.js
+  instances: 1
+  random-route: true
